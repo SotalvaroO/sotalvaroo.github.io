@@ -1,0 +1,168 @@
+.cnt {
+  width: 100%;
+  display: inherit;
+  max-width: 1200px;
+  justify-content: inherit;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.about__description {
+  text-align: left;
+  color: var(--grey);
+  padding-right: 80px;
+  line-height: 40px;
+}
+
+.about__description h2 {
+  margin: 20px 0;
+}
+
+.about__technologies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.technology-title {
+  color: var(--grey);
+  grid-column: span 3;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.technology__item {
+  font-size: 65px;
+  display: flex;
+
+  min-width: 130px;
+  height: 180px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+section {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.section__title {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.technology__item img {
+  max-height: 50px;
+  max-width: 100px;
+}
+
+.technology__name {
+  font-size: 16px;
+  text-align: center;
+}
+
+.nav-bar {
+  background-color: yellow;
+  height: 70px;
+  text-align: end;
+}
+
+.img-tools {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+.hi-section {
+  background-image: linear-gradient(
+    180deg,
+    #ffb500 0,
+    #ffa41e 8.33%,
+    #ff9234 16.67%,
+    #ff7d42 25%,
+    #ff674d 33.33%,
+    #ff5055 41.67%,
+    #ff3858 50%,
+    #e41f59 58.33%,
+    #cc025b 66.67%,
+    #b6005d 75%,
+    #a3005f 83.33%,
+    #910063 91.67%,
+    #820067 100%
+  );
+}
+
+.about-section {
+  padding: 90px;
+  background-image: linear-gradient(
+    to right top,
+    #ffffff,
+    #e3edf6,
+    #bddfe3,
+    #a6cfbd,
+    #abb98e
+  );
+}
+
+.services-section {
+  background-color: beige;
+  padding: 90px 0;
+}
+
+.title {
+  padding: 50px 0px 0px 100px;
+}
+
+.square {
+  margin: 10px;
+  height: 70px;
+}
+
+.about-info {
+  padding: 0px 0px 0px 100px;
+}
+
+.general-container {
+  text-align: center;
+  display: flex;
+  min-height: 400px;
+}
+
+.img-profile {
+  width: 50%;
+  height: 50%;
+  padding: 10% 10% 10% 10%;
+  margin: 0 0 0 0;
+}
+
+.children-container {
+  width: 50%;
+}
+
+.vertical-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.button--cv{
+  background: var(--blue);
+  color: var(--white);
+  padding: 5px 30px;
+  display: inline-block;
+  align-self: center;
+  margin: 20px auto;
+  font: bold;
+  border-radius: 5px;
+}
