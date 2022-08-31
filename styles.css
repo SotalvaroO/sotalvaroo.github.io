@@ -63,7 +63,17 @@ section {
   max-width: 100px;
 }
 
+.service__item img {
+  max-height: 50px;
+  max-width: 100px;
+}
+
 .technology__name {
+  font-size: 16px;
+  text-align: center;
+}
+
+.service__name{
   font-size: 16px;
   text-align: center;
 }
@@ -156,7 +166,7 @@ body {
   transform: translateY(-50%);
 }
 
-.button--cv{
+.button--cv {
   background: var(--blue);
   color: var(--white);
   padding: 5px 30px;
@@ -165,4 +175,41 @@ body {
   margin: 20px auto;
   font: bold;
   border-radius: 5px;
+}
+
+.services__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.service--item {
+  background-color: #820067;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  border-bottom: 5px solid transparent;
+  border-radius: 10px;
+}
+
+.service__item{
+
+  display: flex;
+
+  min-width: 130px;
+  height: 180px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
